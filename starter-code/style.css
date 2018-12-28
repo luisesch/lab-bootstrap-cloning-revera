@@ -1,3 +1,16 @@
+h4 {
+  text-transform: uppercase;
+  font-size: 1.8vw;
+}
+
+p {
+  font-size: 1.2vw;
+}
+
+.carousel-item {
+  height: 60vh;
+}
+
 .navbar {
   border-color: white;
   color: black;
@@ -20,4 +33,31 @@
 
 .nav-link:hover {
   color: red !important;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  height: 20%;
+  width: 2%;
+  margin: auto;
+  background-color: red;
+  color: white;
+  opacity: 1;
+}
+
+header img {
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
+.carousel-caption {
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 5%;
+}
+
+.btn-dark {
+  background-color: rgba(0, 0, 0, 0);
+  border-color: white;
+  border-radius: 0px;
 }
