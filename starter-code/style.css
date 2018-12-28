@@ -1,0 +1,23 @@
+.navbar {
+  border-color: white;
+  color: black;
+}
+
+.navbar-brand {
+  font-size: 24px;
+  font-weight: bold;
+  margin: auto 8%;
+}
+
+.navbar-nav {
+  width: 80%;
+}
+
+.nav-link {
+  margin: auto 2%;
+  font-size: 1.2vw;
+}
+
+.nav-link:hover {
+  color: red !important;
+}
